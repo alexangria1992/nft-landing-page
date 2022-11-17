@@ -1,3 +1,5 @@
+import Collections from "./Components/Collections";
+import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -5,6 +7,8 @@ function App() {
     <>
       {/* <h1 className="text-secondary">Hello world</h1> */}
       <Navbar />
+      <Hero />
+      <Collections />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import Collections from "./Components/Collections";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import Steps from "./Components/Steps";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Collections />
+      <Steps />
     </>
   );
 }

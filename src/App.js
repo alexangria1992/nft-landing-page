@@ -1,4 +1,5 @@
 import Collections from "./Components/Collections";
+import Creators from "./Components/Creators";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Steps from "./Components/Steps";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Collections />
       <Steps />
+      <Creators />
     </>
   );
 }
